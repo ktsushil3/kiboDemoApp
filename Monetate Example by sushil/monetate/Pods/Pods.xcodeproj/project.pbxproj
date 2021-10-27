@@ -1,0 +1,1077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F03C6CE33DD19B5795789BF8CD3367 /* LGSideMenuController+ValidatingViewsStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6399F7FE682F9BFC41045CA5E36E8 /* LGSideMenuController+ValidatingViewsStyles.swift */; };
+		015B67F152D743E567C034076A6B0A0F /* LGSideMenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B421BDFB681DC7745555E87426F7AE9A /* LGSideMenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036BDB39A558D788EF6E96D1C4634BF6 /* LGSideMenuController+ValidatingViewsHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E866D258615D4920C981176A03FFF7F /* LGSideMenuController+ValidatingViewsHierarchy.swift */; };
+		0493ABDBC1DDABB9C0AE43217241FDED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE09B24E9EBBCE4A19480F7596D32DB0 /* CoreGraphics.framework */; };
+		0579FB43A4857BBADC752D80EDF54195 /* LGSideMenuController+Rotating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F4E57AA0DDBB5684A07D9DA936DD82 /* LGSideMenuController+Rotating.swift */; };
+		057FCCCB9B21F766099B24F78260FC69 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFE9FC4444CA8D5EA335C88A2CB7751 /* APIResponse.swift */; };
+		0C8D7873972451F795BB2D4EF9AA14C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */; };
+		0CB2A3D431532DA9645992486F8B5555 /* LGSideMenuController+ValidatingViewsTransforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8BD8C357DC289512081F5C20ED0FDB /* LGSideMenuController+ValidatingViewsTransforms.swift */; };
+		166655B5A14DA42840DD94A5ADE3F2AF /* LGSideMenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8081F5BEED274752873FAE087254A9B9 /* LGSideMenuController-dummy.m */; };
+		196443D3E5E66E30F88C5EC2E379229F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B958A37FDE53258BC17B39B015DCF41 /* Device.swift */; };
+		197DB0AC88AD962ECDB2C431E7F716EF /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7585E8F8B4E8EB6B472B866024CA15 /* Language.swift */; };
+		1E06F1E2C8DD2DD5C7E0434B28A45836 /* EndcapImpressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514E91BD98E1E4028992C818EF07C34 /* EndcapImpressions.swift */; };
+		266E3B33C837567184D1F34EB67B4A09 /* Personalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A851BB4D7064D83ECE369DC625499D /* Personalization.swift */; };
+		2967DC451075792CEC821E8D11561831 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD98ACC7A6E40DDB620663F2EDAAF78E /* UIKit.framework */; };
+		2AD1334874C29C464111C5EA6EF39468 /* LGSideMenuController+ValidatingUserInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4644C4005872228C2D107766A0DFE95A /* LGSideMenuController+ValidatingUserInteraction.swift */; };
+		2BD76364B14911114A29A3CC866AF434 /* CancellationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99737AD1AEDFE9E46DC4C6BB4294DD9A /* CancellationToken.swift */; };
+		3585498180E9EF6257EB1874967A445D /* ClosedSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98574DD53CDDFC49F40FC2F4BD56DA6 /* ClosedSession.swift */; };
+		359BD0EC9B6432742DABC560C46E8236 /* KeychainAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E88BD9E5E5911D9B6DAF7C2B7BAF19 /* KeychainAccess.swift */; };
+		3937820FBC7E5B929C447DDE3EC65F6D /* LGSideMenuBackgroundDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE64CF0397DC9B569CB421B0BC436570 /* LGSideMenuBackgroundDecorationView.swift */; };
+		3C3A5F3C576C61D65F7CF8ACB253B4F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD98ACC7A6E40DDB620663F2EDAAF78E /* UIKit.framework */; };
+		42753E99BAD426AA9CB548A277FDFE0C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B76BD288E58CFDE5E898B7A1F14A31 /* Account.swift */; };
+		43702ADAA238228CEFA4E1D77F1CF360 /* UIViewController+LGSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E325A8FB232A5AEA327D9DCF8EDCC2 /* UIViewController+LGSideMenuController.swift */; };
+		44AD8B80773E66BEC52AE67FDC1F50F2 /* Future.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37FACF9A162822EDB5C08876673BEAC /* Future.swift */; };
+		44C68263BFDDA1128B256A43119DCB7E /* LGSideMenuController+ValidatingViewsFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74833F7FE2841109BF1F296FE4479C28 /* LGSideMenuController+ValidatingViewsFrames.swift */; };
+		507751E863EDF9841801270E19630E3B /* EndcapClicks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818260E4918BF1A3AD0232B4EE8CF9E7 /* EndcapClicks.swift */; };
+		519F337535C7E8AC5A4217D4EDBC3F1F /* CustomVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDD46A52221A9844BEC06AC00D326C /* CustomVariables.swift */; };
+		5373761887F27DA4FB8FF6249A469065 /* LGSideMenuController+ViewsRemoving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6ACDE06BC108C466A71DCFDE1A5386 /* LGSideMenuController+ViewsRemoving.swift */; };
+		5B140FE872D2763220D6EA6DA9B42430 /* LGSideMenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7631EC75D9C83A1E1BF2A920521CFC /* LGSideMenuHelper.swift */; };
+		5DE020350E1A86FE2973C0CB9A82B437 /* LGSideMenuController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED663929F8662E49244C5EEFE7DBE67E /* LGSideMenuController+Helpers.swift */; };
+		5E7B1724EA4791CC264E7887311A3D2C /* CartLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC529EC83A676AC850EB2BE51547608 /* CartLine.swift */; };
+		62A19B459638623215C4F1B683D5D4C3 /* Impressions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D795C79D371705F4DA9184E632F9D82 /* Impressions.swift */; };
+		62B056A9DD70AAEBFBE55AB72923F8BB /* LGSideMenuController+States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C51C070C4682D4D28A764B95A4ADFC /* LGSideMenuController+States.swift */; };
+		671D778529808BC61317295C97E86B09 /* FileActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083FF443F72C02719F012DCDFC5004DF /* FileActions.swift */; };
+		680F135FC4E0C047299D881B98FB3763 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09193A052927B31C8B55270AC578DC /* QuartzCore.framework */; };
+		6ACCEBBD5E8E58C41585EF8B28857EB1 /* Pods-monetate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A3C675C288044BE81497BB79D393C2 /* Pods-monetate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F26A6B85ED0D7B7035F68377892562B /* EventTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C646F54BA5FC8EE3DBBA5BFF401565A /* EventTypeEnum.swift */; };
+		718333A1B29A1A3C75D61ABC77F4DAEC /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F427738C3F62D119FDE5B0D2BDF297E6 /* Coordinates.swift */; };
+		724AA1F0F7F6EE0D2A394785904BC4F5 /* FutureExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7518EDAEF6F42474F34E6E766532A20C /* FutureExtensions.swift */; };
+		7621FD391BA28AABC1286180FCA3957B /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CED72CE6F30F9090253178EE33297 /* SwiftExtensions.swift */; };
+		7BF997763BD8736BD0B4B72BEBBE476C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */; };
+		7C1278860867D84C422C0755BBEB1D15 /* MError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EC991912454F1697661A8CAE8F63D0 /* MError.swift */; };
+		7E4741D8DD3BC75D2BC179CD8C8A9C50 /* LGSideMenuStatusBarBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549369C7829EC572FB64BF8E87D996EF /* LGSideMenuStatusBarBackgroundView.swift */; };
+		8D0847D0E27EBE393E71F73D55F3E358 /* Referrer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099B6DDE775115D0F2DBC79FD8DC529C /* Referrer.swift */; };
+		8D1FFBC66B42B25A77AA8060083F483A /* LGSideMenuSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63BA1A9F98DCFB7DE6731B0401516A4 /* LGSideMenuSegue.swift */; };
+		8D60B031FA487C72BDAF801088A4BAFE /* IPAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A45905967190DB6D8D7F7CE61199F /* IPAddress.swift */; };
+		94655F677162FD77671EE23CD467CE5A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA7BE929EF9194AE899FE97A24F8BDE /* Utility.swift */; };
+		9506925F7C4490A81F9265C7838DC386 /* UserID.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8705C65E5B5CDD5E0353ED749C0E72 /* UserID.swift */; };
+		9507AA98B3C9ACB28E1CE92EF6E1C1E8 /* LGSideMenuController+Callbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080F34D787BA858E0F93BB32054D261 /* LGSideMenuController+Callbacks.swift */; };
+		97C348BCC4C44C65600A2727C5D395D3 /* LGSideMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D82369058DDC4161AF08649C5E7AA2 /* LGSideMenuDelegate.swift */; };
+		9CAC60DB1A2CDCF42BC84D3AF118272A /* DecisionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2F252F2DC3BE8C2F0BDFCFE8E3617 /* DecisionRequest.swift */; };
+		9CE8C1E316FABD7F43E0763D2980854F /* IPAddressUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27F1741BC5E3A536AAC62A5F270E3AB /* IPAddressUtil.swift */; };
+		9D32FEF861D24B02D4580C018C22752A /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC8E35AA098051CD9AEAA32BE2CF1B /* UserAgentBuilder.swift */; };
+		A467B9AB06067CB2D8541F2D1630AEA4 /* LGSideMenuController+Layouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70AB6B0BB72070E5B26D947E47E6524 /* LGSideMenuController+Layouting.swift */; };
+		A4B6AB7F9095A24C0D18A8087D88601D /* ProductThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB7AA86A1F3431FD00A90B7B7BA697 /* ProductThumbnail.swift */; };
+		A4E68E36CEB577B839BCD7D8A4F51D4A /* JSONValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55CFD578B3FDA25568162C44E2AA58D /* JSONValue.swift */; };
+		AB31FEF59A7C0B8A86A3BBACA1E415BF /* MLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121A500CA42232E2FD6FBCEEE78232BF /* MLocation.swift */; };
+		ACCBAB006216B7F9BDDE28F7AE672090 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AAD3E64D4FE1C05CE91663EA0FFF58 /* Log.swift */; };
+		AD0CAD1A46D044968B9F733F22F1DE8D /* LGSideMenuBackgroundShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE56A69E9F89A144D051C9FA7C852C8E /* LGSideMenuBackgroundShadowView.swift */; };
+		AEC995741B22DC311906C8CDB6A9ED85 /* monetate-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA3964325421DEE2FAA424600E97741 /* monetate-ios-sdk-dummy.m */; };
+		AEFF3826BA1BB33DE2F6F9F5E02F1825 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82030B33D6D43B8AC4131B18765B515 /* ProductDetailView.swift */; };
+		B336CC357E2592A8C04E33F3D2ED5A96 /* LGSideMenuController+StatusBarHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52752E29D34B49978C0503160B2CFB9 /* LGSideMenuController+StatusBarHandler.swift */; };
+		B47FC4723FFD85582747D00E6E0348E9 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4695DD14BC84FEEFF2AEE13C7AE035E7 /* ScreenSize.swift */; };
+		B69BB2091BEEFDCD077626406E976EFA /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD72BA84FB66C5FEB827343DD0D3B543 /* PageView.swift */; };
+		B89A4A9E22C508A87365453E52EBA786 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0291338E8EFE4E29E90E40BE7C32D738 /* ProductView.swift */; };
+		C002D2509559155D1A80F2BD93CEAAD5 /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946139477DCA0971815EEAB7F2E69756 /* UserAgent.swift */; };
+		C089741928AD5ADEE61141D7CBA7B15C /* FutureOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D2391A6C6508AF75A0ED09A794CE7 /* FutureOperators.swift */; };
+		C54624CA4487B5F9B14939E041F166BC /* LGSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D20CCD93837F4B19E4C75BBB4C903D /* LGSideMenuController.swift */; };
+		C83C0F40A16D01CC35B65D646F141471 /* LGSideMenuController+RightViewActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AAC716F73BF786868ADD776676ED27 /* LGSideMenuController+RightViewActions.swift */; };
+		CF3B11A0608D835C6B8A690CE064A09F /* LGSideMenuController+LeftViewActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191347E7A3007FDD9C387D04C06298C4 /* LGSideMenuController+LeftViewActions.swift */; };
+		CF8D94960EF49893FDE9E0460D98251E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC459EDCE11C219CE08C9EEE9583E0D3 /* APIService.swift */; };
+		D5629EDFFA87C9A6BDD5748ABA11B018 /* Pods-monetate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7A04FE092EBD052DC8BF2238E71FAF /* Pods-monetate-dummy.m */; };
+		D72B1A22784069A6B414B1A24104E37E /* LGSideMenuController+ValidatingViewsVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C23E8DD1D8D0ECEBB3E3CAA6CBDC4EE /* LGSideMenuController+ValidatingViewsVisibility.swift */; };
+		D9023107F1C3A2F12F28FD7EC852F99F /* LGSideMenuController+GesturesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF28D59F2AF2AF9246D3A1BAD627789 /* LGSideMenuController+GesturesHandler.swift */; };
+		DABA103CCFD9760567824FA8E4B7B092 /* PageEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3612C62C7257EA11EA51C62BCF1763 /* PageEvent.swift */; };
+		E05F16A43281DED51F0095A3AF35726D /* Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EF553C8CDDB23B472258DBC316CA11 /* Metadata.swift */; };
+		E338BF4587992E3069A5A680A5D6408F /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82ABF11D2C319CB551FB54C1B713B7 /* Purchase.swift */; };
+		E59F91188C563CC2B60EB21026431967 /* ContextMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5160C48C1799FF3D03211F372D25B664 /* ContextMap.swift */; };
+		E62C633A5752EF8B1F229D46E61E9B8B /* LGSideMenuWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8861E9CB480570C24AD500095BDF1C /* LGSideMenuWrapperView.swift */; };
+		F373EBE31898D725BF17A56B703A538F /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DEBB210B6F3C6062DD7519148EC6A /* Action.swift */; };
+		F5CFC3947267555283423396D94291F8 /* LGSideMenuController+ValidatingViewsInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A145020447A7D9D5947E9AFF8B762894 /* LGSideMenuController+ValidatingViewsInit.swift */; };
+		F75B4D510C01A6085B80C9B3A2E51B71 /* monetate-ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C451D97D66565BFAE3B57AEB15D53C2 /* monetate-ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD071FD4DC52BAC534DD01E3144EE289 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */; };
+		FEBD9357E30378C191D3875C15213EFD /* ScheduleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7D719234D053B5F9F6A89401B0DF3 /* ScheduleTimer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2EC39120F0B5384040A9F4A97BA27A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1EC8CEFCB04F48D36C12CD11425CAC;
+			remoteInfo = LGSideMenuController;
+		};
+		F9D8C879188E9D9FBD811CEB96D169EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40D12A7E6ACEE0C4824291ADC5EBB6EC;
+			remoteInfo = "monetate-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0291338E8EFE4E29E90E40BE7C32D738 /* ProductView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductView.swift; path = monetate/models/ProductView.swift; sourceTree = "<group>"; };
+		0514E91BD98E1E4028992C818EF07C34 /* EndcapImpressions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndcapImpressions.swift; path = monetate/models/EndcapImpressions.swift; sourceTree = "<group>"; };
+		05EEB8CBC9ABBFE2E98BB1E0CEF3C87C /* Pods-monetate-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-monetate-acknowledgements.plist"; sourceTree = "<group>"; };
+		083FF443F72C02719F012DCDFC5004DF /* FileActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileActions.swift; path = monetate/utility/FileActions.swift; sourceTree = "<group>"; };
+		099B6DDE775115D0F2DBC79FD8DC529C /* Referrer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Referrer.swift; path = monetate/models/Referrer.swift; sourceTree = "<group>"; };
+		09E325A8FB232A5AEA327D9DCF8EDCC2 /* UIViewController+LGSideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+LGSideMenuController.swift"; path = "LGSideMenuController/UIViewController+LGSideMenuController.swift"; sourceTree = "<group>"; };
+		0BF630B5C42A1566FBCCEEABC29FB6FC /* monetate_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = monetate_ios_sdk.framework; path = "monetate-ios-sdk.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		121A500CA42232E2FD6FBCEEE78232BF /* MLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MLocation.swift; path = monetate/utility/MLocation.swift; sourceTree = "<group>"; };
+		191347E7A3007FDD9C387D04C06298C4 /* LGSideMenuController+LeftViewActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+LeftViewActions.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+LeftViewActions.swift"; sourceTree = "<group>"; };
+		1A30172AE9F0660847BC807A6F15A494 /* LGSideMenuController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LGSideMenuController.framework; path = LGSideMenuController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2080F34D787BA858E0F93BB32054D261 /* LGSideMenuController+Callbacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+Callbacks.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+Callbacks.swift"; sourceTree = "<group>"; };
+		22A3C675C288044BE81497BB79D393C2 /* Pods-monetate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-monetate-umbrella.h"; sourceTree = "<group>"; };
+		24B6A825090D46C43DCD97CF93920C21 /* monetate-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "monetate-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		25856E9C2D791774255B1239D3A170F5 /* LGSideMenuController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LGSideMenuController-Info.plist"; sourceTree = "<group>"; };
+		26979011978FF9292E6484C5B1CE331B /* Pods-monetate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-monetate-Info.plist"; sourceTree = "<group>"; };
+		2BCC8E35AA098051CD9AEAA32BE2CF1B /* UserAgentBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserAgentBuilder.swift; path = monetate/utility/UserAgentBuilder.swift; sourceTree = "<group>"; };
+		2E174174DA24DCEFC74F704AD8F7C0E5 /* Pods-monetate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-monetate.release.xcconfig"; sourceTree = "<group>"; };
+		2EE6399F7FE682F9BFC41045CA5E36E8 /* LGSideMenuController+ValidatingViewsStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+ValidatingViewsStyles.swift"; path = "LGSideMenuController/Extensions/Validators/LGSideMenuController+ValidatingViewsStyles.swift"; sourceTree = "<group>"; };
+		32AAC716F73BF786868ADD776676ED27 /* LGSideMenuController+RightViewActions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+RightViewActions.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+RightViewActions.swift"; sourceTree = "<group>"; };
+		42EF553C8CDDB23B472258DBC316CA11 /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = monetate/models/Metadata.swift; sourceTree = "<group>"; };
+		4644C4005872228C2D107766A0DFE95A /* LGSideMenuController+ValidatingUserInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+ValidatingUserInteraction.swift"; path = "LGSideMenuController/Extensions/Validators/LGSideMenuController+ValidatingUserInteraction.swift"; sourceTree = "<group>"; };
+		4695DD14BC84FEEFF2AEE13C7AE035E7 /* ScreenSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenSize.swift; path = monetate/models/trackables/ScreenSize.swift; sourceTree = "<group>"; };
+		4B958A37FDE53258BC17B39B015DCF41 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = monetate/core/Device.swift; sourceTree = "<group>"; };
+		4FC529EC83A676AC850EB2BE51547608 /* CartLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CartLine.swift; path = monetate/models/CartLine.swift; sourceTree = "<group>"; };
+		50DD726E3E57E403CBC8F529DB248904 /* Pods-monetate-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-monetate-frameworks.sh"; sourceTree = "<group>"; };
+		5160C48C1799FF3D03211F372D25B664 /* ContextMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextMap.swift; path = monetate/core/ContextMap.swift; sourceTree = "<group>"; };
+		549369C7829EC572FB64BF8E87D996EF /* LGSideMenuStatusBarBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGSideMenuStatusBarBackgroundView.swift; path = LGSideMenuController/LGSideMenuStatusBarBackgroundView.swift; sourceTree = "<group>"; };
+		58C4711162B25A476D0197ED009C937A /* LGSideMenuController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-prefix.pch"; sourceTree = "<group>"; };
+		5C23E8DD1D8D0ECEBB3E3CAA6CBDC4EE /* LGSideMenuController+ValidatingViewsVisibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+ValidatingViewsVisibility.swift"; path = "LGSideMenuController/Extensions/Validators/LGSideMenuController+ValidatingViewsVisibility.swift"; sourceTree = "<group>"; };
+		5C451D97D66565BFAE3B57AEB15D53C2 /* monetate-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "monetate-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
+		5C4CED72CE6F30F9090253178EE33297 /* SwiftExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftExtensions.swift; path = monetate/utility/SwiftExtensions.swift; sourceTree = "<group>"; };
+		5ED51725C6B9778FF8F81E81D2B46DCD /* monetate-ios-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "monetate-ios-sdk-prefix.pch"; sourceTree = "<group>"; };
+		5F6ACDE06BC108C466A71DCFDE1A5386 /* LGSideMenuController+ViewsRemoving.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+ViewsRemoving.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+ViewsRemoving.swift"; sourceTree = "<group>"; };
+		6269166B8870AF845AF334FB3BE0F8FB /* Pods-monetate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-monetate.modulemap"; sourceTree = "<group>"; };
+		648A45905967190DB6D8D7F7CE61199F /* IPAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IPAddress.swift; path = monetate/models/trackables/IPAddress.swift; sourceTree = "<group>"; };
+		65C2F252F2DC3BE8C2F0BDFCFE8E3617 /* DecisionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecisionRequest.swift; path = monetate/models/DecisionRequest.swift; sourceTree = "<group>"; };
+		6AA7BE929EF9194AE899FE97A24F8BDE /* Utility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = monetate/utility/Utility.swift; sourceTree = "<group>"; };
+		6D8BD8C357DC289512081F5C20ED0FDB /* LGSideMenuController+ValidatingViewsTransforms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+ValidatingViewsTransforms.swift"; path = "LGSideMenuController/Extensions/Validators/LGSideMenuController+ValidatingViewsTransforms.swift"; sourceTree = "<group>"; };
+		6F8861E9CB480570C24AD500095BDF1C /* LGSideMenuWrapperView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGSideMenuWrapperView.swift; path = LGSideMenuController/LGSideMenuWrapperView.swift; sourceTree = "<group>"; };
+		73C51C070C4682D4D28A764B95A4ADFC /* LGSideMenuController+States.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+States.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+States.swift"; sourceTree = "<group>"; };
+		74833F7FE2841109BF1F296FE4479C28 /* LGSideMenuController+ValidatingViewsFrames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+ValidatingViewsFrames.swift"; path = "LGSideMenuController/Extensions/Validators/LGSideMenuController+ValidatingViewsFrames.swift"; sourceTree = "<group>"; };
+		7518EDAEF6F42474F34E6E766532A20C /* FutureExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FutureExtensions.swift; path = monetate/utility/futures/FutureExtensions.swift; sourceTree = "<group>"; };
+		7969F58F624D4CB1EF5665790358296B /* LGSideMenuController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LGSideMenuController.modulemap; sourceTree = "<group>"; };
+		7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C646F54BA5FC8EE3DBBA5BFF401565A /* EventTypeEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventTypeEnum.swift; path = monetate/models/EventTypeEnum.swift; sourceTree = "<group>"; };
+		7D3612C62C7257EA11EA51C62BCF1763 /* PageEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageEvent.swift; path = monetate/models/PageEvent.swift; sourceTree = "<group>"; };
+		7E866D258615D4920C981176A03FFF7F /* LGSideMenuController+ValidatingViewsHierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+ValidatingViewsHierarchy.swift"; path = "LGSideMenuController/Extensions/Validators/LGSideMenuController+ValidatingViewsHierarchy.swift"; sourceTree = "<group>"; };
+		7EFE9FC4444CA8D5EA335C88A2CB7751 /* APIResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIResponse.swift; path = monetate/models/APIResponse.swift; sourceTree = "<group>"; };
+		8081F5BEED274752873FAE087254A9B9 /* LGSideMenuController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LGSideMenuController-dummy.m"; sourceTree = "<group>"; };
+		818260E4918BF1A3AD0232B4EE8CF9E7 /* EndcapClicks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndcapClicks.swift; path = monetate/models/EndcapClicks.swift; sourceTree = "<group>"; };
+		81EE97A08D780AC911CEC34AE295AFBD /* monetate-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "monetate-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		8C7A04FE092EBD052DC8BF2238E71FAF /* Pods-monetate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-monetate-dummy.m"; sourceTree = "<group>"; };
+		8CC2DEB8936AD220E89CE863D936898C /* monetate-ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "monetate-ios-sdk-Info.plist"; sourceTree = "<group>"; };
+		8F7631EC75D9C83A1E1BF2A920521CFC /* LGSideMenuHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGSideMenuHelper.swift; path = LGSideMenuController/LGSideMenuHelper.swift; sourceTree = "<group>"; };
+		946139477DCA0971815EEAB7F2E69756 /* UserAgent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserAgent.swift; path = monetate/models/trackables/UserAgent.swift; sourceTree = "<group>"; };
+		94D20CCD93837F4B19E4C75BBB4C903D /* LGSideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGSideMenuController.swift; path = LGSideMenuController/LGSideMenuController.swift; sourceTree = "<group>"; };
+		958DEBB210B6F3C6062DD7519148EC6A /* Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Action.swift; path = monetate/actions/Action.swift; sourceTree = "<group>"; };
+		99737AD1AEDFE9E46DC4C6BB4294DD9A /* CancellationToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CancellationToken.swift; path = monetate/utility/futures/CancellationToken.swift; sourceTree = "<group>"; };
+		9C09193A052927B31C8B55270AC578DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9D795C79D371705F4DA9184E632F9D82 /* Impressions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Impressions.swift; path = monetate/models/Impressions.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD7D719234D053B5F9F6A89401B0DF3 /* ScheduleTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduleTimer.swift; path = monetate/core/ScheduleTimer.swift; sourceTree = "<group>"; };
+		A0D82369058DDC4161AF08649C5E7AA2 /* LGSideMenuDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGSideMenuDelegate.swift; path = LGSideMenuController/LGSideMenuDelegate.swift; sourceTree = "<group>"; };
+		A145020447A7D9D5947E9AFF8B762894 /* LGSideMenuController+ValidatingViewsInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+ValidatingViewsInit.swift"; path = "LGSideMenuController/Extensions/Validators/LGSideMenuController+ValidatingViewsInit.swift"; sourceTree = "<group>"; };
+		A1EC991912454F1697661A8CAE8F63D0 /* MError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MError.swift; path = monetate/utility/MError.swift; sourceTree = "<group>"; };
+		A8B76BD288E58CFDE5E898B7A1F14A31 /* Account.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Account.swift; path = monetate/core/Account.swift; sourceTree = "<group>"; };
+		AA0B2FAF889C43BA07F9EE4D4D697579 /* Pods_monetate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_monetate.framework; path = "Pods-monetate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6521290D71DD4684C99AE764204688 /* monetate-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "monetate-ios-sdk.modulemap"; sourceTree = "<group>"; };
+		AC7585E8F8B4E8EB6B472B866024CA15 /* Language.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Language.swift; path = monetate/models/Language.swift; sourceTree = "<group>"; };
+		B27F1741BC5E3A536AAC62A5F270E3AB /* IPAddressUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IPAddressUtil.swift; path = monetate/utility/IPAddressUtil.swift; sourceTree = "<group>"; };
+		B421BDFB681DC7745555E87426F7AE9A /* LGSideMenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LGSideMenuController-umbrella.h"; sourceTree = "<group>"; };
+		B8365CCD3B828C5B8F106C15B4C0B631 /* Pods-monetate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-monetate.debug.xcconfig"; sourceTree = "<group>"; };
+		BC459EDCE11C219CE08C9EEE9583E0D3 /* APIService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = monetate/services/APIService.swift; sourceTree = "<group>"; };
+		BD9D2391A6C6508AF75A0ED09A794CE7 /* FutureOperators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FutureOperators.swift; path = monetate/utility/futures/FutureOperators.swift; sourceTree = "<group>"; };
+		C4AAD3E64D4FE1C05CE91663EA0FFF58 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = monetate/Log.swift; sourceTree = "<group>"; };
+		C63BA1A9F98DCFB7DE6731B0401516A4 /* LGSideMenuSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGSideMenuSegue.swift; path = LGSideMenuController/LGSideMenuSegue.swift; sourceTree = "<group>"; };
+		C70AB6B0BB72070E5B26D947E47E6524 /* LGSideMenuController+Layouting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+Layouting.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+Layouting.swift"; sourceTree = "<group>"; };
+		C98574DD53CDDFC49F40FC2F4BD56DA6 /* ClosedSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClosedSession.swift; path = monetate/models/ClosedSession.swift; sourceTree = "<group>"; };
+		CE64CF0397DC9B569CB421B0BC436570 /* LGSideMenuBackgroundDecorationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGSideMenuBackgroundDecorationView.swift; path = LGSideMenuController/LGSideMenuBackgroundDecorationView.swift; sourceTree = "<group>"; };
+		CEA3964325421DEE2FAA424600E97741 /* monetate-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "monetate-ios-sdk-dummy.m"; sourceTree = "<group>"; };
+		D1A851BB4D7064D83ECE369DC625499D /* Personalization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Personalization.swift; path = monetate/core/Personalization.swift; sourceTree = "<group>"; };
+		D37FACF9A162822EDB5C08876673BEAC /* Future.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Future.swift; path = monetate/utility/futures/Future.swift; sourceTree = "<group>"; };
+		D52752E29D34B49978C0503160B2CFB9 /* LGSideMenuController+StatusBarHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+StatusBarHandler.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+StatusBarHandler.swift"; sourceTree = "<group>"; };
+		D82030B33D6D43B8AC4131B18765B515 /* ProductDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductDetailView.swift; path = monetate/models/ProductDetailView.swift; sourceTree = "<group>"; };
+		DD98ACC7A6E40DDB620663F2EDAAF78E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E55CFD578B3FDA25568162C44E2AA58D /* JSONValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONValue.swift; path = monetate/models/JSONValue.swift; sourceTree = "<group>"; };
+		EAEDD46A52221A9844BEC06AC00D326C /* CustomVariables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomVariables.swift; path = monetate/models/CustomVariables.swift; sourceTree = "<group>"; };
+		ED663929F8662E49244C5EEFE7DBE67E /* LGSideMenuController+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+Helpers.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+Helpers.swift"; sourceTree = "<group>"; };
+		EDF28D59F2AF2AF9246D3A1BAD627789 /* LGSideMenuController+GesturesHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+GesturesHandler.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+GesturesHandler.swift"; sourceTree = "<group>"; };
+		EE09B24E9EBBCE4A19480F7596D32DB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		EF092336FEA665168025042CD8FB3268 /* LGSideMenuController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGSideMenuController.release.xcconfig; sourceTree = "<group>"; };
+		F0F4E57AA0DDBB5684A07D9DA936DD82 /* LGSideMenuController+Rotating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LGSideMenuController+Rotating.swift"; path = "LGSideMenuController/Extensions/LGSideMenuController+Rotating.swift"; sourceTree = "<group>"; };
+		F1E88BD9E5E5911D9B6DAF7C2B7BAF19 /* KeychainAccess.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainAccess.swift; path = monetate/utility/KeychainAccess.swift; sourceTree = "<group>"; };
+		F371A7EC86FB4BEBDCA0723FED81A47E /* LGSideMenuController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LGSideMenuController.debug.xcconfig; sourceTree = "<group>"; };
+		F427738C3F62D119FDE5B0D2BDF297E6 /* Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinates.swift; path = monetate/models/trackables/Coordinates.swift; sourceTree = "<group>"; };
+		F4CB7AA86A1F3431FD00A90B7B7BA697 /* ProductThumbnail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductThumbnail.swift; path = monetate/models/ProductThumbnail.swift; sourceTree = "<group>"; };
+		F5C14CE00472270BF8FC85BA9B1448A1 /* Pods-monetate-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-monetate-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA82ABF11D2C319CB551FB54C1B713B7 /* Purchase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Purchase.swift; path = monetate/models/Purchase.swift; sourceTree = "<group>"; };
+		FD72BA84FB66C5FEB827343DD0D3B543 /* PageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageView.swift; path = monetate/models/PageView.swift; sourceTree = "<group>"; };
+		FE56A69E9F89A144D051C9FA7C852C8E /* LGSideMenuBackgroundShadowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LGSideMenuBackgroundShadowView.swift; path = LGSideMenuController/LGSideMenuBackgroundShadowView.swift; sourceTree = "<group>"; };
+		FE8705C65E5B5CDD5E0353ED749C0E72 /* UserID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserID.swift; path = monetate/core/UserID.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C07A315AAB0182B85C34445965A56FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD071FD4DC52BAC534DD01E3144EE289 /* Foundation.framework in Frameworks */,
+				2967DC451075792CEC821E8D11561831 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C82D82E5D2C06EE1397DF9A23069DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0493ABDBC1DDABB9C0AE43217241FDED /* CoreGraphics.framework in Frameworks */,
+				0C8D7873972451F795BB2D4EF9AA14C8 /* Foundation.framework in Frameworks */,
+				680F135FC4E0C047299D881B98FB3763 /* QuartzCore.framework in Frameworks */,
+				3C3A5F3C576C61D65F7CF8ACB253B4F0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED25BD00FD56BCC0F3A84ED00F9DFE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF997763BD8736BD0B4B72BEBBE476C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1021BDF9C60AD3BE85C919041AA25AE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A146AD267F8D4A61672B86E669621E87 /* LGSideMenuController */,
+				C8FF3BB9EB25702565B9D8968AC3DE0B /* monetate-ios-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EE560C68355798E73C46C6115A2F68C /* Pods-monetate */ = {
+			isa = PBXGroup;
+			children = (
+				6269166B8870AF845AF334FB3BE0F8FB /* Pods-monetate.modulemap */,
+				F5C14CE00472270BF8FC85BA9B1448A1 /* Pods-monetate-acknowledgements.markdown */,
+				05EEB8CBC9ABBFE2E98BB1E0CEF3C87C /* Pods-monetate-acknowledgements.plist */,
+				8C7A04FE092EBD052DC8BF2238E71FAF /* Pods-monetate-dummy.m */,
+				50DD726E3E57E403CBC8F529DB248904 /* Pods-monetate-frameworks.sh */,
+				26979011978FF9292E6484C5B1CE331B /* Pods-monetate-Info.plist */,
+				22A3C675C288044BE81497BB79D393C2 /* Pods-monetate-umbrella.h */,
+				B8365CCD3B828C5B8F106C15B4C0B631 /* Pods-monetate.debug.xcconfig */,
+				2E174174DA24DCEFC74F704AD8F7C0E5 /* Pods-monetate.release.xcconfig */,
+			);
+			name = "Pods-monetate";
+			path = "Target Support Files/Pods-monetate";
+			sourceTree = "<group>";
+		};
+		253EACAF836A7B2EC0193DBB7A7C3D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A30172AE9F0660847BC807A6F15A494 /* LGSideMenuController.framework */,
+				0BF630B5C42A1566FBCCEEABC29FB6FC /* monetate_ios_sdk.framework */,
+				AA0B2FAF889C43BA07F9EE4D4D697579 /* Pods_monetate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3123ABF2C951363CC56F5A5E12C7AA10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6521290D71DD4684C99AE764204688 /* monetate-ios-sdk.modulemap */,
+				CEA3964325421DEE2FAA424600E97741 /* monetate-ios-sdk-dummy.m */,
+				8CC2DEB8936AD220E89CE863D936898C /* monetate-ios-sdk-Info.plist */,
+				5ED51725C6B9778FF8F81E81D2B46DCD /* monetate-ios-sdk-prefix.pch */,
+				5C451D97D66565BFAE3B57AEB15D53C2 /* monetate-ios-sdk-umbrella.h */,
+				81EE97A08D780AC911CEC34AE295AFBD /* monetate-ios-sdk.debug.xcconfig */,
+				24B6A825090D46C43DCD97CF93920C21 /* monetate-ios-sdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/monetate-ios-sdk";
+			sourceTree = "<group>";
+		};
+		4958B34BCF3001AE86CEEB3A79D66AD1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EE560C68355798E73C46C6115A2F68C /* Pods-monetate */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8E7D464E758AFB821F9E83D8D70CBF03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7969F58F624D4CB1EF5665790358296B /* LGSideMenuController.modulemap */,
+				8081F5BEED274752873FAE087254A9B9 /* LGSideMenuController-dummy.m */,
+				25856E9C2D791774255B1239D3A170F5 /* LGSideMenuController-Info.plist */,
+				58C4711162B25A476D0197ED009C937A /* LGSideMenuController-prefix.pch */,
+				B421BDFB681DC7745555E87426F7AE9A /* LGSideMenuController-umbrella.h */,
+				F371A7EC86FB4BEBDCA0723FED81A47E /* LGSideMenuController.debug.xcconfig */,
+				EF092336FEA665168025042CD8FB3268 /* LGSideMenuController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LGSideMenuController";
+			sourceTree = "<group>";
+		};
+		A146AD267F8D4A61672B86E669621E87 /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				CE64CF0397DC9B569CB421B0BC436570 /* LGSideMenuBackgroundDecorationView.swift */,
+				FE56A69E9F89A144D051C9FA7C852C8E /* LGSideMenuBackgroundShadowView.swift */,
+				94D20CCD93837F4B19E4C75BBB4C903D /* LGSideMenuController.swift */,
+				2080F34D787BA858E0F93BB32054D261 /* LGSideMenuController+Callbacks.swift */,
+				EDF28D59F2AF2AF9246D3A1BAD627789 /* LGSideMenuController+GesturesHandler.swift */,
+				ED663929F8662E49244C5EEFE7DBE67E /* LGSideMenuController+Helpers.swift */,
+				C70AB6B0BB72070E5B26D947E47E6524 /* LGSideMenuController+Layouting.swift */,
+				191347E7A3007FDD9C387D04C06298C4 /* LGSideMenuController+LeftViewActions.swift */,
+				32AAC716F73BF786868ADD776676ED27 /* LGSideMenuController+RightViewActions.swift */,
+				F0F4E57AA0DDBB5684A07D9DA936DD82 /* LGSideMenuController+Rotating.swift */,
+				73C51C070C4682D4D28A764B95A4ADFC /* LGSideMenuController+States.swift */,
+				D52752E29D34B49978C0503160B2CFB9 /* LGSideMenuController+StatusBarHandler.swift */,
+				4644C4005872228C2D107766A0DFE95A /* LGSideMenuController+ValidatingUserInteraction.swift */,
+				74833F7FE2841109BF1F296FE4479C28 /* LGSideMenuController+ValidatingViewsFrames.swift */,
+				7E866D258615D4920C981176A03FFF7F /* LGSideMenuController+ValidatingViewsHierarchy.swift */,
+				A145020447A7D9D5947E9AFF8B762894 /* LGSideMenuController+ValidatingViewsInit.swift */,
+				2EE6399F7FE682F9BFC41045CA5E36E8 /* LGSideMenuController+ValidatingViewsStyles.swift */,
+				6D8BD8C357DC289512081F5C20ED0FDB /* LGSideMenuController+ValidatingViewsTransforms.swift */,
+				5C23E8DD1D8D0ECEBB3E3CAA6CBDC4EE /* LGSideMenuController+ValidatingViewsVisibility.swift */,
+				5F6ACDE06BC108C466A71DCFDE1A5386 /* LGSideMenuController+ViewsRemoving.swift */,
+				A0D82369058DDC4161AF08649C5E7AA2 /* LGSideMenuDelegate.swift */,
+				8F7631EC75D9C83A1E1BF2A920521CFC /* LGSideMenuHelper.swift */,
+				C63BA1A9F98DCFB7DE6731B0401516A4 /* LGSideMenuSegue.swift */,
+				549369C7829EC572FB64BF8E87D996EF /* LGSideMenuStatusBarBackgroundView.swift */,
+				6F8861E9CB480570C24AD500095BDF1C /* LGSideMenuWrapperView.swift */,
+				09E325A8FB232A5AEA327D9DCF8EDCC2 /* UIViewController+LGSideMenuController.swift */,
+				8E7D464E758AFB821F9E83D8D70CBF03 /* Support Files */,
+			);
+			name = LGSideMenuController;
+			path = LGSideMenuController;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8E67CDA2898D79EB75F3AFB39904E7C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8FF3BB9EB25702565B9D8968AC3DE0B /* monetate-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				A8B76BD288E58CFDE5E898B7A1F14A31 /* Account.swift */,
+				958DEBB210B6F3C6062DD7519148EC6A /* Action.swift */,
+				7EFE9FC4444CA8D5EA335C88A2CB7751 /* APIResponse.swift */,
+				BC459EDCE11C219CE08C9EEE9583E0D3 /* APIService.swift */,
+				99737AD1AEDFE9E46DC4C6BB4294DD9A /* CancellationToken.swift */,
+				4FC529EC83A676AC850EB2BE51547608 /* CartLine.swift */,
+				C98574DD53CDDFC49F40FC2F4BD56DA6 /* ClosedSession.swift */,
+				5160C48C1799FF3D03211F372D25B664 /* ContextMap.swift */,
+				F427738C3F62D119FDE5B0D2BDF297E6 /* Coordinates.swift */,
+				EAEDD46A52221A9844BEC06AC00D326C /* CustomVariables.swift */,
+				65C2F252F2DC3BE8C2F0BDFCFE8E3617 /* DecisionRequest.swift */,
+				4B958A37FDE53258BC17B39B015DCF41 /* Device.swift */,
+				818260E4918BF1A3AD0232B4EE8CF9E7 /* EndcapClicks.swift */,
+				0514E91BD98E1E4028992C818EF07C34 /* EndcapImpressions.swift */,
+				7C646F54BA5FC8EE3DBBA5BFF401565A /* EventTypeEnum.swift */,
+				083FF443F72C02719F012DCDFC5004DF /* FileActions.swift */,
+				D37FACF9A162822EDB5C08876673BEAC /* Future.swift */,
+				7518EDAEF6F42474F34E6E766532A20C /* FutureExtensions.swift */,
+				BD9D2391A6C6508AF75A0ED09A794CE7 /* FutureOperators.swift */,
+				9D795C79D371705F4DA9184E632F9D82 /* Impressions.swift */,
+				648A45905967190DB6D8D7F7CE61199F /* IPAddress.swift */,
+				B27F1741BC5E3A536AAC62A5F270E3AB /* IPAddressUtil.swift */,
+				E55CFD578B3FDA25568162C44E2AA58D /* JSONValue.swift */,
+				F1E88BD9E5E5911D9B6DAF7C2B7BAF19 /* KeychainAccess.swift */,
+				AC7585E8F8B4E8EB6B472B866024CA15 /* Language.swift */,
+				C4AAD3E64D4FE1C05CE91663EA0FFF58 /* Log.swift */,
+				A1EC991912454F1697661A8CAE8F63D0 /* MError.swift */,
+				42EF553C8CDDB23B472258DBC316CA11 /* Metadata.swift */,
+				121A500CA42232E2FD6FBCEEE78232BF /* MLocation.swift */,
+				7D3612C62C7257EA11EA51C62BCF1763 /* PageEvent.swift */,
+				FD72BA84FB66C5FEB827343DD0D3B543 /* PageView.swift */,
+				D1A851BB4D7064D83ECE369DC625499D /* Personalization.swift */,
+				D82030B33D6D43B8AC4131B18765B515 /* ProductDetailView.swift */,
+				F4CB7AA86A1F3431FD00A90B7B7BA697 /* ProductThumbnail.swift */,
+				0291338E8EFE4E29E90E40BE7C32D738 /* ProductView.swift */,
+				FA82ABF11D2C319CB551FB54C1B713B7 /* Purchase.swift */,
+				099B6DDE775115D0F2DBC79FD8DC529C /* Referrer.swift */,
+				9FD7D719234D053B5F9F6A89401B0DF3 /* ScheduleTimer.swift */,
+				4695DD14BC84FEEFF2AEE13C7AE035E7 /* ScreenSize.swift */,
+				5C4CED72CE6F30F9090253178EE33297 /* SwiftExtensions.swift */,
+				946139477DCA0971815EEAB7F2E69756 /* UserAgent.swift */,
+				2BCC8E35AA098051CD9AEAA32BE2CF1B /* UserAgentBuilder.swift */,
+				FE8705C65E5B5CDD5E0353ED749C0E72 /* UserID.swift */,
+				6AA7BE929EF9194AE899FE97A24F8BDE /* Utility.swift */,
+				3123ABF2C951363CC56F5A5E12C7AA10 /* Support Files */,
+			);
+			name = "monetate-ios-sdk";
+			path = "monetate-ios-sdk";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				1021BDF9C60AD3BE85C919041AA25AE2 /* Pods */,
+				253EACAF836A7B2EC0193DBB7A7C3D0E /* Products */,
+				4958B34BCF3001AE86CEEB3A79D66AD1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E8E67CDA2898D79EB75F3AFB39904E7C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EE09B24E9EBBCE4A19480F7596D32DB0 /* CoreGraphics.framework */,
+				7B92BE98A3FECD223AC2BC418D1F6D1E /* Foundation.framework */,
+				9C09193A052927B31C8B55270AC578DC /* QuartzCore.framework */,
+				DD98ACC7A6E40DDB620663F2EDAAF78E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7573FEB9ADA5BEC36C6F0E35F7A27851 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015B67F152D743E567C034076A6B0A0F /* LGSideMenuController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B34BA0C9977B4F0D0019B59A678F018 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACCEBBD5E8E58C41585EF8B28857EB1 /* Pods-monetate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D17D6D5DDBDB78D69B6E95F8D7BB38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75B4D510C01A6085B80C9B3A2E51B71 /* monetate-ios-sdk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E1EC8CEFCB04F48D36C12CD11425CAC /* LGSideMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B856E6EC17FBE8302DC66B35DED2DC98 /* Build configuration list for PBXNativeTarget "LGSideMenuController" */;
+			buildPhases = (
+				7573FEB9ADA5BEC36C6F0E35F7A27851 /* Headers */,
+				8DE03DFB9AE4AAFE89C33B55B9921ED3 /* Sources */,
+				C5C82D82E5D2C06EE1397DF9A23069DA /* Frameworks */,
+				ECC97F547974C3FA953D6580A15755BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGSideMenuController;
+			productName = LGSideMenuController;
+			productReference = 1A30172AE9F0660847BC807A6F15A494 /* LGSideMenuController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40D12A7E6ACEE0C4824291ADC5EBB6EC /* monetate-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210939673DFF1002CD1BE38D912CDFBF /* Build configuration list for PBXNativeTarget "monetate-ios-sdk" */;
+			buildPhases = (
+				B1D17D6D5DDBDB78D69B6E95F8D7BB38 /* Headers */,
+				8CBEB8E5165B92AF5669EC7EEF2B8DC1 /* Sources */,
+				0C07A315AAB0182B85C34445965A56FA /* Frameworks */,
+				FD06B17791C85444F6634ACA9EA6A9D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "monetate-ios-sdk";
+			productName = "monetate-ios-sdk";
+			productReference = 0BF630B5C42A1566FBCCEEABC29FB6FC /* monetate_ios_sdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF4D01465083E7AD2FEB13830A0D7016 /* Pods-monetate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A25287B42CB9F53499C217B27035D9 /* Build configuration list for PBXNativeTarget "Pods-monetate" */;
+			buildPhases = (
+				7B34BA0C9977B4F0D0019B59A678F018 /* Headers */,
+				77C55DA63E98B9772D1E1C60016C4C78 /* Sources */,
+				ED25BD00FD56BCC0F3A84ED00F9DFE40 /* Frameworks */,
+				1F74AD5B43F1D4A03EDFA36F606D624E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8D6EC695859D312560BBD6253566471 /* PBXTargetDependency */,
+				58546993680F51F8FD434E1D4BFAF42E /* PBXTargetDependency */,
+			);
+			name = "Pods-monetate";
+			productName = "Pods-monetate";
+			productReference = AA0B2FAF889C43BA07F9EE4D4D697579 /* Pods_monetate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 253EACAF836A7B2EC0193DBB7A7C3D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1EC8CEFCB04F48D36C12CD11425CAC /* LGSideMenuController */,
+				40D12A7E6ACEE0C4824291ADC5EBB6EC /* monetate-ios-sdk */,
+				BF4D01465083E7AD2FEB13830A0D7016 /* Pods-monetate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F74AD5B43F1D4A03EDFA36F606D624E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC97F547974C3FA953D6580A15755BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD06B17791C85444F6634ACA9EA6A9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77C55DA63E98B9772D1E1C60016C4C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5629EDFFA87C9A6BDD5748ABA11B018 /* Pods-monetate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CBEB8E5165B92AF5669EC7EEF2B8DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42753E99BAD426AA9CB548A277FDFE0C /* Account.swift in Sources */,
+				F373EBE31898D725BF17A56B703A538F /* Action.swift in Sources */,
+				057FCCCB9B21F766099B24F78260FC69 /* APIResponse.swift in Sources */,
+				CF8D94960EF49893FDE9E0460D98251E /* APIService.swift in Sources */,
+				2BD76364B14911114A29A3CC866AF434 /* CancellationToken.swift in Sources */,
+				5E7B1724EA4791CC264E7887311A3D2C /* CartLine.swift in Sources */,
+				3585498180E9EF6257EB1874967A445D /* ClosedSession.swift in Sources */,
+				E59F91188C563CC2B60EB21026431967 /* ContextMap.swift in Sources */,
+				718333A1B29A1A3C75D61ABC77F4DAEC /* Coordinates.swift in Sources */,
+				519F337535C7E8AC5A4217D4EDBC3F1F /* CustomVariables.swift in Sources */,
+				9CAC60DB1A2CDCF42BC84D3AF118272A /* DecisionRequest.swift in Sources */,
+				196443D3E5E66E30F88C5EC2E379229F /* Device.swift in Sources */,
+				507751E863EDF9841801270E19630E3B /* EndcapClicks.swift in Sources */,
+				1E06F1E2C8DD2DD5C7E0434B28A45836 /* EndcapImpressions.swift in Sources */,
+				6F26A6B85ED0D7B7035F68377892562B /* EventTypeEnum.swift in Sources */,
+				671D778529808BC61317295C97E86B09 /* FileActions.swift in Sources */,
+				44AD8B80773E66BEC52AE67FDC1F50F2 /* Future.swift in Sources */,
+				724AA1F0F7F6EE0D2A394785904BC4F5 /* FutureExtensions.swift in Sources */,
+				C089741928AD5ADEE61141D7CBA7B15C /* FutureOperators.swift in Sources */,
+				62A19B459638623215C4F1B683D5D4C3 /* Impressions.swift in Sources */,
+				8D60B031FA487C72BDAF801088A4BAFE /* IPAddress.swift in Sources */,
+				9CE8C1E316FABD7F43E0763D2980854F /* IPAddressUtil.swift in Sources */,
+				A4E68E36CEB577B839BCD7D8A4F51D4A /* JSONValue.swift in Sources */,
+				359BD0EC9B6432742DABC560C46E8236 /* KeychainAccess.swift in Sources */,
+				197DB0AC88AD962ECDB2C431E7F716EF /* Language.swift in Sources */,
+				ACCBAB006216B7F9BDDE28F7AE672090 /* Log.swift in Sources */,
+				7C1278860867D84C422C0755BBEB1D15 /* MError.swift in Sources */,
+				E05F16A43281DED51F0095A3AF35726D /* Metadata.swift in Sources */,
+				AB31FEF59A7C0B8A86A3BBACA1E415BF /* MLocation.swift in Sources */,
+				AEC995741B22DC311906C8CDB6A9ED85 /* monetate-ios-sdk-dummy.m in Sources */,
+				DABA103CCFD9760567824FA8E4B7B092 /* PageEvent.swift in Sources */,
+				B69BB2091BEEFDCD077626406E976EFA /* PageView.swift in Sources */,
+				266E3B33C837567184D1F34EB67B4A09 /* Personalization.swift in Sources */,
+				AEFF3826BA1BB33DE2F6F9F5E02F1825 /* ProductDetailView.swift in Sources */,
+				A4B6AB7F9095A24C0D18A8087D88601D /* ProductThumbnail.swift in Sources */,
+				B89A4A9E22C508A87365453E52EBA786 /* ProductView.swift in Sources */,
+				E338BF4587992E3069A5A680A5D6408F /* Purchase.swift in Sources */,
+				8D0847D0E27EBE393E71F73D55F3E358 /* Referrer.swift in Sources */,
+				FEBD9357E30378C191D3875C15213EFD /* ScheduleTimer.swift in Sources */,
+				B47FC4723FFD85582747D00E6E0348E9 /* ScreenSize.swift in Sources */,
+				7621FD391BA28AABC1286180FCA3957B /* SwiftExtensions.swift in Sources */,
+				C002D2509559155D1A80F2BD93CEAAD5 /* UserAgent.swift in Sources */,
+				9D32FEF861D24B02D4580C018C22752A /* UserAgentBuilder.swift in Sources */,
+				9506925F7C4490A81F9265C7838DC386 /* UserID.swift in Sources */,
+				94655F677162FD77671EE23CD467CE5A /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE03DFB9AE4AAFE89C33B55B9921ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3937820FBC7E5B929C447DDE3EC65F6D /* LGSideMenuBackgroundDecorationView.swift in Sources */,
+				AD0CAD1A46D044968B9F733F22F1DE8D /* LGSideMenuBackgroundShadowView.swift in Sources */,
+				9507AA98B3C9ACB28E1CE92EF6E1C1E8 /* LGSideMenuController+Callbacks.swift in Sources */,
+				D9023107F1C3A2F12F28FD7EC852F99F /* LGSideMenuController+GesturesHandler.swift in Sources */,
+				5DE020350E1A86FE2973C0CB9A82B437 /* LGSideMenuController+Helpers.swift in Sources */,
+				A467B9AB06067CB2D8541F2D1630AEA4 /* LGSideMenuController+Layouting.swift in Sources */,
+				CF3B11A0608D835C6B8A690CE064A09F /* LGSideMenuController+LeftViewActions.swift in Sources */,
+				C83C0F40A16D01CC35B65D646F141471 /* LGSideMenuController+RightViewActions.swift in Sources */,
+				0579FB43A4857BBADC752D80EDF54195 /* LGSideMenuController+Rotating.swift in Sources */,
+				62B056A9DD70AAEBFBE55AB72923F8BB /* LGSideMenuController+States.swift in Sources */,
+				B336CC357E2592A8C04E33F3D2ED5A96 /* LGSideMenuController+StatusBarHandler.swift in Sources */,
+				2AD1334874C29C464111C5EA6EF39468 /* LGSideMenuController+ValidatingUserInteraction.swift in Sources */,
+				44C68263BFDDA1128B256A43119DCB7E /* LGSideMenuController+ValidatingViewsFrames.swift in Sources */,
+				036BDB39A558D788EF6E96D1C4634BF6 /* LGSideMenuController+ValidatingViewsHierarchy.swift in Sources */,
+				F5CFC3947267555283423396D94291F8 /* LGSideMenuController+ValidatingViewsInit.swift in Sources */,
+				00F03C6CE33DD19B5795789BF8CD3367 /* LGSideMenuController+ValidatingViewsStyles.swift in Sources */,
+				0CB2A3D431532DA9645992486F8B5555 /* LGSideMenuController+ValidatingViewsTransforms.swift in Sources */,
+				D72B1A22784069A6B414B1A24104E37E /* LGSideMenuController+ValidatingViewsVisibility.swift in Sources */,
+				5373761887F27DA4FB8FF6249A469065 /* LGSideMenuController+ViewsRemoving.swift in Sources */,
+				166655B5A14DA42840DD94A5ADE3F2AF /* LGSideMenuController-dummy.m in Sources */,
+				C54624CA4487B5F9B14939E041F166BC /* LGSideMenuController.swift in Sources */,
+				97C348BCC4C44C65600A2727C5D395D3 /* LGSideMenuDelegate.swift in Sources */,
+				5B140FE872D2763220D6EA6DA9B42430 /* LGSideMenuHelper.swift in Sources */,
+				8D1FFBC66B42B25A77AA8060083F483A /* LGSideMenuSegue.swift in Sources */,
+				7E4741D8DD3BC75D2BC179CD8C8A9C50 /* LGSideMenuStatusBarBackgroundView.swift in Sources */,
+				E62C633A5752EF8B1F229D46E61E9B8B /* LGSideMenuWrapperView.swift in Sources */,
+				43702ADAA238228CEFA4E1D77F1CF360 /* UIViewController+LGSideMenuController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58546993680F51F8FD434E1D4BFAF42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "monetate-ios-sdk";
+			target = 40D12A7E6ACEE0C4824291ADC5EBB6EC /* monetate-ios-sdk */;
+			targetProxy = F9D8C879188E9D9FBD811CEB96D169EF /* PBXContainerItemProxy */;
+		};
+		F8D6EC695859D312560BBD6253566471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LGSideMenuController;
+			target = 0E1EC8CEFCB04F48D36C12CD11425CAC /* LGSideMenuController */;
+			targetProxy = C2EC39120F0B5384040A9F4A97BA27A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		124E10F0FE4C54D78004EACAA411AB02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E174174DA24DCEFC74F704AD8F7C0E5 /* Pods-monetate.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-monetate/Pods-monetate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-monetate/Pods-monetate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29D985252CE483A5CCC7D014E8A0F57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EE97A08D780AC911CEC34AE295AFBD /* monetate-ios-sdk.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/monetate-ios-sdk/monetate-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/monetate-ios-sdk/monetate-ios-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/monetate-ios-sdk/monetate-ios-sdk.modulemap";
+				PRODUCT_MODULE_NAME = monetate_ios_sdk;
+				PRODUCT_NAME = monetate_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3975945A4FA62F8CD86A56FCA2A0678B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8365CCD3B828C5B8F106C15B4C0B631 /* Pods-monetate.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-monetate/Pods-monetate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-monetate/Pods-monetate.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55CA2EFE23A469C407FFE72731275F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F371A7EC86FB4BEBDCA0723FED81A47E /* LGSideMenuController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController/LGSideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGSideMenuController/LGSideMenuController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LGSideMenuController/LGSideMenuController.modulemap";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = LGSideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C81B4B0647C562A5F06D8D25C933CC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF092336FEA665168025042CD8FB3268 /* LGSideMenuController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LGSideMenuController/LGSideMenuController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LGSideMenuController/LGSideMenuController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LGSideMenuController/LGSideMenuController.modulemap";
+				PRODUCT_MODULE_NAME = LGSideMenuController;
+				PRODUCT_NAME = LGSideMenuController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD93D71994026B673A47C1A567BB31F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B6A825090D46C43DCD97CF93920C21 /* monetate-ios-sdk.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/monetate-ios-sdk/monetate-ios-sdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/monetate-ios-sdk/monetate-ios-sdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/monetate-ios-sdk/monetate-ios-sdk.modulemap";
+				PRODUCT_MODULE_NAME = monetate_ios_sdk;
+				PRODUCT_NAME = monetate_ios_sdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A25287B42CB9F53499C217B27035D9 /* Build configuration list for PBXNativeTarget "Pods-monetate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3975945A4FA62F8CD86A56FCA2A0678B /* Debug */,
+				124E10F0FE4C54D78004EACAA411AB02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210939673DFF1002CD1BE38D912CDFBF /* Build configuration list for PBXNativeTarget "monetate-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29D985252CE483A5CCC7D014E8A0F57F /* Debug */,
+				DD93D71994026B673A47C1A567BB31F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B856E6EC17FBE8302DC66B35DED2DC98 /* Build configuration list for PBXNativeTarget "LGSideMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CA2EFE23A469C407FFE72731275F57 /* Debug */,
+				C81B4B0647C562A5F06D8D25C933CC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

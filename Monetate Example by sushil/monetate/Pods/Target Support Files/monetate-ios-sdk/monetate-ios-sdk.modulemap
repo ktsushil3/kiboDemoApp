@@ -1,0 +1,6 @@
+framework module monetate_ios_sdk {
+  umbrella header "monetate-ios-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

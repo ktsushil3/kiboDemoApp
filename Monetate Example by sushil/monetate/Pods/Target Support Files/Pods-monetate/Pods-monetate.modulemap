@@ -1,0 +1,6 @@
+framework module Pods_monetate {
+  umbrella header "Pods-monetate-umbrella.h"
+
+  export *
+  module * { export * }
+}

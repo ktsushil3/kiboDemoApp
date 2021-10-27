@@ -1,0 +1,20 @@
+PODS:
+  - LGSideMenuController (3.1.2)
+  - monetate-ios-sdk (2021.07.19)
+
+DEPENDENCIES:
+  - LGSideMenuController
+  - monetate-ios-sdk
+
+SPEC REPOS:
+  trunk:
+    - LGSideMenuController
+    - monetate-ios-sdk
+
+SPEC CHECKSUMS:
+  LGSideMenuController: 0c7b155b0dbdf14bf8b88d5ac363c5fe1584bb23
+  monetate-ios-sdk: 2d25c8bd92d27c14d294a847f2bf00a0b43a029f
+
+PODFILE CHECKSUM: dafddd3b8f5bc4248215320673ebf7c553dbccfb
+
+COCOAPODS: 1.10.1
