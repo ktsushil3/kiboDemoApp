@@ -32,7 +32,12 @@ class ProductStore {
     var products: [Product] = [
         Product(title: "iPad Pro", price: 599, image: #imageLiteral(resourceName: "img_ipad"), quantity: 0),
         Product(title: "Apple Watch", price: 299, image: #imageLiteral(resourceName: "img_watch") , quantity: 0),
-        Product(title: "Apple TV", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0)
+        Product(title: "Apple TV", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0),
+        Product(title: "Samsung m13", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0),
+        Product(title: "Apple Watch", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0),
+        Product(title: "MI TV", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0),
+        Product(title: "Ipad", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0)
+        
     ]
     
     func getPositionByName(title: String) -> Int? {
