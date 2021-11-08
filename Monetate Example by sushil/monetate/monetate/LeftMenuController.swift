@@ -42,5 +42,12 @@ class LeftMenuController: UIViewController,UITableViewDelegate,UITableViewDataSo
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       // CartViewController
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "CartViewController") as! CartViewController
+        let navCtr = UINavigationController(rootViewController: vc)
+        
+      //  self.present(navCtr, animated: true, completion: nil)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

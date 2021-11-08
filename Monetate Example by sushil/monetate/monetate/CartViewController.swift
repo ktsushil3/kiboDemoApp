@@ -33,7 +33,7 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return productStore.products.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -41,17 +41,18 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         cell.productImageView.backgroundColor = UIColor.red
         
-        switch indexPath.row {
-        case 0:
-            cell.configure(currentProduct: productStore.products[0])
-        case 1:
-            cell.configure(currentProduct: productStore.products[1])
-        case 2:
-            cell.configure(currentProduct: productStore.products[2])
-        default:
-            cell.configure(currentProduct: productStore.products[0])
-        }
-        
+//        switch indexPath.row {
+//        case 0:
+//            cell.configure(currentProduct: productStore.products[0])
+//        case 1:
+//            cell.configure(currentProduct: productStore.products[1])
+//        case 2:
+//            cell.configure(currentProduct: productStore.products[2])
+//        default:
+//            cell.configure(currentProduct: productStore.products[0])
+//        }
+//
+        cell.configure(currentProduct: productStore.products[indexPath.row])
         cell.delegate = self
                 
         return cell
@@ -77,6 +78,14 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
         if segue.identifier == "finishPurchase" {
             let checkoutVC = segue.destination as! CheckoutViewController
             checkoutVC.totalValue = self.totalValueLabel.text!
+            for product in productStore.products
+            {
+                if product.quantity > 0
+                {
+                checkoutVC.products.append(product)
+                }
+            }
+           
         }
     }
 }

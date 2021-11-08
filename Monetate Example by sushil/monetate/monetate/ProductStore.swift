@@ -8,18 +8,22 @@
 
 import UIKit
 
-class Product {
+class ProductItem {
     
     var title: String
     var price: Double
     var image: UIImage
     var quantity: Int
+    var sku:String
+    var pid:String
     
-    init(title: String, price: Double, image: UIImage, quantity: Int) {
+    init(title: String, price: Double, image: UIImage, quantity: Int,sku:String,pid:String) {
         self.title = title
         self.price = price
         self.image = image
         self.quantity = quantity
+        self.pid = pid
+        self.sku = sku
     }
     
     func setQuantity (quantity: Int) {
@@ -29,14 +33,14 @@ class Product {
 
 class ProductStore {
     
-    var products: [Product] = [
-        Product(title: "iPad Pro", price: 599, image: #imageLiteral(resourceName: "img_ipad"), quantity: 0),
-        Product(title: "Apple Watch", price: 299, image: #imageLiteral(resourceName: "img_watch") , quantity: 0),
-        Product(title: "Apple TV", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0),
-        Product(title: "Samsung m13", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0),
-        Product(title: "Apple Watch", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0),
-        Product(title: "MI TV", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0),
-        Product(title: "Ipad", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0)
+    var products: [ProductItem] = [
+        ProductItem(title: "iPad Pro", price: 599, image: #imageLiteral(resourceName: "img_ipad"), quantity: 0,sku:"sk-11",pid:"sk-11-01"),
+        ProductItem(title: "Apple Watch", price: 299, image: #imageLiteral(resourceName: "img_watch") , quantity: 0,sku:"sk-12",pid:"sk-12-01"),
+        ProductItem(title: "Apple TV", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-13",pid:"sk-13-01"),
+        ProductItem(title: "Samsung m13", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-14",pid:"sk-14-01"),
+        ProductItem(title: "Apple Watch", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-15",pid:"sk-15-01"),
+        ProductItem(title: "MI TV", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-16",pid:"sk-16-01"),
+        ProductItem(title: "Ipad", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-17",pid:"sk-17-01")
         
     ]
     

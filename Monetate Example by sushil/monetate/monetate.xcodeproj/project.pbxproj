@@ -17,6 +17,10 @@
 		1FA3C768270EF45700A007C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA3C767270EF45700A007C5 /* Assets.xcassets */; };
 		1FA3C76B270EF45700A007C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA3C769270EF45700A007C5 /* LaunchScreen.storyboard */; };
 		1FAAF68D271D528800B5D0D6 /* LeftMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAF68C271D528800B5D0D6 /* LeftMenuController.swift */; };
+		1FADED2127390A9E006A2F33 /* CartViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FADED2027390A9E006A2F33 /* CartViewCell.swift */; };
+		1FADED25273926DD006A2F33 /* SwiftyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FADED24273926DD006A2F33 /* SwiftyJson.swift */; };
+		1FADED272739278B006A2F33 /* SetupContextMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FADED262739278B006A2F33 /* SetupContextMap.swift */; };
+		1FADED29273929C7006A2F33 /* SetupPersonalizationSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FADED28273929C7006A2F33 /* SetupPersonalizationSDK.swift */; };
 		FFE6642551DED8E457629EFE /* Pods_monetate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64902738A4FA25C6B3656669 /* Pods_monetate.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +37,10 @@
 		1FA3C76A270EF45700A007C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FA3C76C270EF45700A007C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FAAF68C271D528800B5D0D6 /* LeftMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuController.swift; sourceTree = "<group>"; };
+		1FADED2027390A9E006A2F33 /* CartViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewCell.swift; sourceTree = "<group>"; };
+		1FADED24273926DD006A2F33 /* SwiftyJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJson.swift; sourceTree = "<group>"; };
+		1FADED262739278B006A2F33 /* SetupContextMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupContextMap.swift; sourceTree = "<group>"; };
+		1FADED28273929C7006A2F33 /* SetupPersonalizationSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupPersonalizationSDK.swift; sourceTree = "<group>"; };
 		5B8054F17426423434E28C84 /* Pods-monetate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monetate.release.xcconfig"; path = "Target Support Files/Pods-monetate/Pods-monetate.release.xcconfig"; sourceTree = "<group>"; };
 		64902738A4FA25C6B3656669 /* Pods_monetate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_monetate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E0DD8032BE5BDC50E06FA2 /* Pods-monetate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-monetate.debug.xcconfig"; path = "Target Support Files/Pods-monetate/Pods-monetate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +81,8 @@
 			children = (
 				1FA3C75E270EF45400A007C5 /* AppDelegate.swift */,
 				1F0EE58D27265CEE007BA6EB /* CartViewController.swift */,
+				1FADED262739278B006A2F33 /* SetupContextMap.swift */,
+				1FADED28273929C7006A2F33 /* SetupPersonalizationSDK.swift */,
 				1F0EE58B27265CDE007BA6EB /* ProductStore.swift */,
 				1F0EE58F27265CF5007BA6EB /* CheckoutViewController.swift */,
 				1F0EE58927265CB0007BA6EB /* CartTableViewCell.swift */,
@@ -82,6 +92,8 @@
 				1FA3C769270EF45700A007C5 /* LaunchScreen.storyboard */,
 				1FA3C76C270EF45700A007C5 /* Info.plist */,
 				1FAAF68C271D528800B5D0D6 /* LeftMenuController.swift */,
+				1FADED2027390A9E006A2F33 /* CartViewCell.swift */,
+				1FADED24273926DD006A2F33 /* SwiftyJson.swift */,
 			);
 			path = monetate;
 			sourceTree = "<group>";
@@ -219,11 +231,15 @@
 			files = (
 				1F0EE58C27265CDE007BA6EB /* ProductStore.swift in Sources */,
 				1FA3C763270EF45400A007C5 /* ViewController.swift in Sources */,
+				1FADED2127390A9E006A2F33 /* CartViewCell.swift in Sources */,
 				1FA3C75F270EF45400A007C5 /* AppDelegate.swift in Sources */,
+				1FADED272739278B006A2F33 /* SetupContextMap.swift in Sources */,
 				1FAAF68D271D528800B5D0D6 /* LeftMenuController.swift in Sources */,
+				1FADED29273929C7006A2F33 /* SetupPersonalizationSDK.swift in Sources */,
 				1F0EE58E27265CEE007BA6EB /* CartViewController.swift in Sources */,
 				1F0EE58A27265CB0007BA6EB /* CartTableViewCell.swift in Sources */,
 				1F0EE59027265CF5007BA6EB /* CheckoutViewController.swift in Sources */,
+				1FADED25273926DD006A2F33 /* SwiftyJson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
