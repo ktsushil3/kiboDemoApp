@@ -33,6 +33,7 @@ class CartTableViewCell: UITableViewCell {
         self.productTitleLabel.text = currentProduct.title
         self.productPriceLabel.text = "\(currentProduct.price)"
         self.productImageView.image = currentProduct.image
+        self.productQuantityLabel.text = String(currentProduct.quantity)
     }
         
     @IBAction func didTapStepper(_ sender: UIStepper) {

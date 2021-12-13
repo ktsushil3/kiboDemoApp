@@ -25,7 +25,25 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.tableView.dataSource = self
         
         self.productStore = ProductStore()
+        //create a new button
+        let button: UIButton = UIButton(type: .custom) as! UIButton
+               //set image for button
+        button.setImage(UIImage(named: "menuleft"), for: .normal)
+               //add function for button
+        button.addTarget(self, action: #selector(openLeftMenu), for: .touchUpInside)
+               //set frame
+               button.frame = CGRect(x: 0, y: 0, width: 53, height: 51)
+        button.addTarget(self, action: #selector(openLeftMenu), for: .touchUpInside)
+               let barButton = UIBarButtonItem(customView: button)
+        
+               //assign button to navigationbar
+               self.navigationItem.leftBarButtonItem = barButton
     }
+  @objc  func openLeftMenu()
+    {
+    
+    self.sideMenuController?.showLeftView(animated: true, completion: nil)
+  }
     
     override func viewWillAppear(_ animated: Bool) {
         self.totalValueLabel.text = "$0.0"

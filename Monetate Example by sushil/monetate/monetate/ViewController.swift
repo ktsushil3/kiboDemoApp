@@ -14,10 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        var lbl:UILabel = UILabel(frame: CGRect(x: self.view.frame.minX, y: self.view.frame.maxY/2, width: self.view.frame.width, height: 40))
-        lbl.text = "Monetate"
-        lbl.textAlignment = .center
-        self.view.addSubview(lbl)
+        
     
     }
 

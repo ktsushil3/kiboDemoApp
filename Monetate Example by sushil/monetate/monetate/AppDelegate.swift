@@ -18,11 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = UIColor.white
             let initialViewController = storyboard.instantiateViewController(withIdentifier: "ViewController")
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "CartViewController") as! CartViewController
+        let navCtr = UINavigationController(rootViewController: vc)
         let leftViewController = storyboard.instantiateViewController(withIdentifier: "LeftMenuController")
                let rightViewController = UITableViewController()
 
                // 3. Create instance of LGSideMenuController with above controllers as root and left.
-               let sideMenuController = LGSideMenuController(rootViewController: initialViewController,
+               let sideMenuController = LGSideMenuController(rootViewController: navCtr,
                                                              leftViewController: leftViewController,
                                                              rightViewController: rightViewController)
 
@@ -35,10 +37,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                sideMenuController.rightViewWidth = 100.0
 
 
-let navController = UINavigationController(rootViewController: sideMenuController)
+//let navController = UINavigationController(rootViewController: sideMenuController)
 
 
-            self.window?.rootViewController = navController
+            self.window?.rootViewController = sideMenuController
             self.window?.makeKeyAndVisible()
        
         // Override point for customization after application launch.

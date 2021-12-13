@@ -34,13 +34,13 @@ class ProductItem {
 class ProductStore {
     
     var products: [ProductItem] = [
-        ProductItem(title: "iPad Pro", price: 599, image: #imageLiteral(resourceName: "img_ipad"), quantity: 0,sku:"sk-11",pid:"sk-11-01"),
-        ProductItem(title: "Apple Watch", price: 299, image: #imageLiteral(resourceName: "img_watch") , quantity: 0,sku:"sk-12",pid:"sk-12-01"),
-        ProductItem(title: "Apple TV", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-13",pid:"sk-13-01"),
-        ProductItem(title: "Samsung m13", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-14",pid:"sk-14-01"),
-        ProductItem(title: "Apple Watch", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-15",pid:"sk-15-01"),
-        ProductItem(title: "MI TV", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-16",pid:"sk-16-01"),
-        ProductItem(title: "Ipad", price: 199, image: #imageLiteral(resourceName: "img_tv") , quantity: 0,sku:"sk-17",pid:"sk-17-01")
+        ProductItem(title: "iPad Pro", price: 599, image: #imageLiteral(resourceName: "ipad pro 2021"), quantity: 0,sku:"sk-11",pid:"sk-11-01"),
+        ProductItem(title: "realme phone", price: 299, image: #imageLiteral(resourceName: "realme smart ph") , quantity: 0,sku:"sk-12",pid:"sk-12-01"),
+        ProductItem(title: "Apple TV", price: 199, image: #imageLiteral(resourceName: "apple tv") , quantity: 0,sku:"sk-13",pid:"sk-13-01"),
+        ProductItem(title: "Samsung m13", price: 199, image: #imageLiteral(resourceName: "samsung m13") , quantity: 0,sku:"sk-14",pid:"sk-14-01"),
+        ProductItem(title: "Watch titan", price: 199, image: #imageLiteral(resourceName: "titan watch") , quantity: 0,sku:"sk-15",pid:"sk-15-01"),
+        ProductItem(title: "MI TV", price: 199, image: #imageLiteral(resourceName: "mi tv") , quantity: 0,sku:"sk-16",pid:"sk-16-01"),
+        ProductItem(title: "skime watch", price: 199, image: #imageLiteral(resourceName: "realme watch") , quantity: 0,sku:"sk-17",pid:"sk-17-01")
         
     ]
     
