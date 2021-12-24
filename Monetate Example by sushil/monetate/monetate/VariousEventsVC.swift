@@ -102,46 +102,73 @@ class VariousEventsVC: UIViewController {
             print("")
         }
 }
+    func purchase()
+    {
+        Personalization.shared.getActions(context: .Purchase, requestId: requestId, event: Purchase(account: "Flipkart", domain: "www.flipkart.com", instance: "instance-198", purchaseId: "PID-23892", purchaseLines: [PurchaseLine(sku: "sku-321", pid: "", quantity: 7, currency: "USD", value: "")])).on(success: { (res) in
+           
+        })
+    }
+    func ipaddress()
+    {
+        if isManual
+        {
+        Personalization.shared.getActions(context: .IpAddress, requestId: requestId, event: IPAddress(ipAddress: "")).on(success: { (res) in
+           
+        })
+        }
+        else
+        {
+        
+        Personalization.shared.getActions(context: .IpAddress, requestId: requestId, event: IPAddress(auto: true)).on(success: { (res) in
+           
+        })
+        }
+    }
+    func coordinate()
+    {
+        if isManual
+        {
+            Personalization.shared.getActions(context: .Coordinates, requestId: requestId, event: Coordinates(latitude: txtFiled1.text!, longitude: txtField2.text!)).on { (res) in
+                self.alertcall(message: "Coordinate event Sucessfully executed")
+                print("me")
+            }
+            
+        }
+        else
+        {
+            if CLLocationManager.locationServicesEnabled() {
+                switch CLLocationManager.authorizationStatus() {
+                    case .notDetermined, .restricted, .denied:
+                        print("No access")
+                        self.alertforlocationnotenabled()
+                    case .authorizedAlways, .authorizedWhenInUse:
+                        Personalization.shared.getActions(context: .Coordinates, requestId: requestId, event: Coordinates(auto: true)).on { (res) in
+                            self.alertcall(message: "Coordinate event Sucessfully executed")
+                           print("me")
+                        }
+                        print("Access")
+                    @unknown default:
+                        break
+                }
+            } else {
+                self.alertforlocationnotenabled()
+                print("Location services are not enabled")
+            }
+            
+        }
+    }
     @IBAction func proceed(_ sender: Any) {
         switch eventType
         {
         case .coordinate:
-            if isManual
-            {
-                Personalization.shared.getActions(context: .Coordinates, requestId: requestId, event: Coordinates(latitude: txtFiled1.text!, longitude: txtField2.text!)).on { (res) in
-                    self.alertcall(message: "Coordinate event Sucessfully executed")
-                    print("me")
-                }
-                
-            }
-            else
-            {
-                if CLLocationManager.locationServicesEnabled() {
-                    switch CLLocationManager.authorizationStatus() {
-                        case .notDetermined, .restricted, .denied:
-                            print("No access")
-                            self.alertforlocationnotenabled()
-                        case .authorizedAlways, .authorizedWhenInUse:
-                            Personalization.shared.getActions(context: .Coordinates, requestId: requestId, event: Coordinates(auto: true)).on { (res) in
-                                self.alertcall(message: "Coordinate event Sucessfully executed")
-                               print("me")
-                            }
-                            print("Access")
-                        @unknown default:
-                            break
-                    }
-                } else {
-                    self.alertforlocationnotenabled()
-                    print("Location services are not enabled")
-                }
-                
-            }
-         
+
+            self.coordinate()
         case .purchase:
             print("")
         case .screensize:
             print("")
         case .ipaddress:
+            ipaddress()
             print("")
         case .userAgent:
             print("")
