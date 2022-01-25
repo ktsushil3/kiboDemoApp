@@ -13,4 +13,6 @@ enum EventType {
     case ipaddress
     case userAgent
     case Metadata
+    case CustomVariable
+    case productDetailView
 }

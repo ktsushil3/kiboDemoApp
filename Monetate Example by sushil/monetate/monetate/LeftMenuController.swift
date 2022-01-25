@@ -9,7 +9,7 @@ import UIKit
 import LGSideMenuController
 
 class LeftMenuController: UIViewController,UITableViewDelegate,UITableViewDataSource{
-    let options:[String] = ["Cart","Coordinate"]
+    let options:[String] = ["Cart","Coordinate","ipaddress","screensize","Metadata","userAgent","custom variable","product Detail"]
   
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
@@ -64,6 +64,7 @@ class LeftMenuController: UIViewController,UITableViewDelegate,UITableViewDataSo
         {
             let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "VariousEventsVC") as! VariousEventsVC
             vc.eventType = .coordinate
+            vc.screentitle = "coordinate"
             let navCtr = UINavigationController(rootViewController: vc)
             
          //   Self.side
@@ -75,6 +76,104 @@ class LeftMenuController: UIViewController,UITableViewDelegate,UITableViewDataSo
                 }
             }
         }
+        else if indexPath.row == 2
+        {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "VariousEventsVC") as! VariousEventsVC
+            vc.eventType = .ipaddress
+            vc.screentitle = "ipaddress"
+            let navCtr = UINavigationController(rootViewController: vc)
+            
+         //   Self.side
+          //  self.present(navCtr, animated: true, completion: nil)
+            if let parentVC = self.parent {
+                if let parentVC = parentVC as? LGSideMenuController {
+                    // parentVC is someViewController
+                    parentVC.rootViewController = navCtr
+                }
+            }
+        }
+        else if indexPath.row == 3
+        {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "VariousEventsVC") as! VariousEventsVC
+            vc.eventType = .screensize
+            vc.screentitle = "screensize"
+            let navCtr = UINavigationController(rootViewController: vc)
+            
+         //   Self.side
+          //  self.present(navCtr, animated: true, completion: nil)
+            if let parentVC = self.parent {
+                if let parentVC = parentVC as? LGSideMenuController {
+                    // parentVC is someViewController
+                    parentVC.rootViewController = navCtr
+                }
+            }
+        }
+        else if indexPath.row == 4
+        {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "VariousEventsVC") as! VariousEventsVC
+            vc.eventType = .Metadata
+            vc.screentitle = "Metadata"
+            let navCtr = UINavigationController(rootViewController: vc)
+            
+         //   Self.side
+          //  self.present(navCtr, animated: true, completion: nil)
+            if let parentVC = self.parent {
+                if let parentVC = parentVC as? LGSideMenuController {
+                    // parentVC is someViewController
+                    parentVC.rootViewController = navCtr
+                }
+            }
+        }
+        else if indexPath.row == 5
+        {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "VariousEventsVC") as! VariousEventsVC
+            vc.eventType = .userAgent
+            vc.screentitle = "userAgent"
+            let navCtr = UINavigationController(rootViewController: vc)
+            
+         //   Self.side
+          //  self.present(navCtr, animated: true, completion: nil)
+            if let parentVC = self.parent {
+                if let parentVC = parentVC as? LGSideMenuController {
+                    // parentVC is someViewController
+                    parentVC.rootViewController = navCtr
+                }
+            }
+        }
+        else if indexPath.row == 6
+        {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "VariousEventsVC") as! VariousEventsVC
+            vc.eventType = .CustomVariable
+            vc.screentitle = "Custom Variable"
+            let navCtr = UINavigationController(rootViewController: vc)
+            
+         //   Self.side
+          //  self.present(navCtr, animated: true, completion: nil)
+            if let parentVC = self.parent {
+                if let parentVC = parentVC as? LGSideMenuController {
+                    // parentVC is someViewController
+                    parentVC.rootViewController = navCtr
+                }
+            }
+        }
+
+        else if indexPath.row == 7
+        {
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "VariousEventsVC") as! VariousEventsVC
+            vc.eventType = .productDetailView
+            vc.screentitle = "product Detail"
+            let navCtr = UINavigationController(rootViewController: vc)
+            
+         //   Self.side
+          //  self.present(navCtr, animated: true, completion: nil)
+            if let parentVC = self.parent {
+                if let parentVC = parentVC as? LGSideMenuController {
+                    // parentVC is someViewController
+                    parentVC.rootViewController = navCtr
+                }
+            }
+        }
+
      //   var rootViewController = self.navigationController?.viewControllers.first as! LGSideMenuController
        
     }

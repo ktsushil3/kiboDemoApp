@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
             self.window?.rootViewController = sideMenuController
             self.window?.makeKeyAndVisible()
-       
+        window?.overrideUserInterfaceStyle = .light
         // Override point for customization after application launch.
         return true
     }

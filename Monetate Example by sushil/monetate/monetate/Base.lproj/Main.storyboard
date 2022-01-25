@@ -437,6 +437,7 @@
                     </view>
                     <connections>
                         <outlet property="messageLabel" destination="a2d-JS-pyf" id="UQ7-WF-aTC"/>
+                        <outlet property="proceedBtn" destination="Vi1-Vw-dVB" id="7aR-wR-yTp"/>
                         <outlet property="txtField2" destination="cBC-xf-rat" id="kPh-Ip-IPn"/>
                         <outlet property="txtFiled1" destination="rjg-rV-2rc" id="B4V-GV-Ldr"/>
                     </connections>
