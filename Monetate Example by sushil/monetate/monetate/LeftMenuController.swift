@@ -173,7 +173,8 @@ class LeftMenuController: UIViewController,UITableViewDelegate,UITableViewDataSo
                 }
             }
         }
-
+        
+                self.sideMenuController?.hideLeftView()
      //   var rootViewController = self.navigationController?.viewControllers.first as! LGSideMenuController
        
     }

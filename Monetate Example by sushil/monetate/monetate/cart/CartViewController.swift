@@ -58,7 +58,7 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let cell = tableView.dequeueReusableCell(withIdentifier: "cartCell", for: indexPath) as! CartTableViewCell
         
         cell.productImageView.backgroundColor = UIColor.red
-        
+        cell.selectionStyle = .none
 //        switch indexPath.row {
 //        case 0:
 //            cell.configure(currentProduct: productStore.products[0])
@@ -89,9 +89,31 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     @IBAction func didTapPlaceOrder(_ sender: Any) {
-        performSegue(withIdentifier: "finishPurchase", sender: nil)
+        for item in productStore.products
+        {
+            if item.quantity > 0
+            {
+                performSegue(withIdentifier: "finishPurchase", sender: nil)
+                return
+            }
+        }
+        self.callalert()
+        
     }
-    
+    func callalert()
+    {
+        let alert = UIAlertController(title: "alert", message: "Please Select Product", preferredStyle: .actionSheet)
+        
+        alert.addAction(UIAlertAction(title: "ok", style: .default, handler: { (_) in
+            
+        }))
+        
+        // alert.view.backgroundColor = .red
+        
+        self.present(alert, animated: true, completion: {
+            print("completion block")
+        })
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "finishPurchase" {
             let checkoutVC = segue.destination as! CheckoutViewController

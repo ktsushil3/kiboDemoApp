@@ -481,7 +481,8 @@ class VariousEventsVC: UIViewController {
             self.handleUIForEvents(event:self.eventType!)
         }))
         
-        alert.view.tintColor = .red
+        //alert.view.tintColor = .red
+      //  alert.view.subviews.first?.subviews.first?.subviews.first?.backgroundColor = .red
         
         
         self.present(alert, animated: true, completion: {

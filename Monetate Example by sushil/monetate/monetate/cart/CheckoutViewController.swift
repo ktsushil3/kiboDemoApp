@@ -18,6 +18,7 @@ class CheckoutViewController: UIViewController,UITableViewDelegate,UITableViewDa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CartViewCell", for: indexPath) as! CartViewCell
+        cell.selectionStyle = .none
         cell.productName.text = products[indexPath.row].title
         cell.productQuantity.text = String(products[indexPath.row].quantity)
         cell.productAmount.text = "$ \(String(products[indexPath.row].price)) "
@@ -91,7 +92,11 @@ class CheckoutViewController: UIViewController,UITableViewDelegate,UITableViewDa
                    print("User click Approve button")
                }))
 
-        alert.view.backgroundColor = .red
+      //  alert.view.tintColor = .red
+     //   alert.view.subviews.first?.subviews.first?.subviews.first?.backgroundColor = UIColor.green
+
+           // Accessing buttons tintcolor :
+          
 
                self.present(alert, animated: true, completion: {
                    print("completion block")
